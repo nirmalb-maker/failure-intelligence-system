@@ -1,0 +1,16 @@
+Date,Failure Description,Failure Type,Confidence Level,Cluster,Reflection
+
+2026-04-06 20:49,sem exam fqailure,Exam,3,2,"i should practice more
+"
+2026-04-06 22:43,"I studied well for the exam but when I saw the question paper, I got nervous and forgot everything.",Exam,2,0,I realized that preparation alone is not enough; I must also train myself to handle pressure. I need to practice under exam-like conditions and build confidence through repetition and exposure.
+2026-04-06 22:51,"I studied all the topics and felt confident, but when solving questions I struggled because I didn’t fully understand the concepts. My preparation was more focused on memorization than deep understanding.",Interview,5,0,"I learned that true understanding is more important than memorization. I need to focus on conceptual clarity, problem-solving, and applying knowledge rather than just reading theory."
+2026-04-06 22:53,"I studied for the exam but didn’t practice enough. During the test, I got confused and couldn’t apply what I learned properly.",Other,5,2,"I realized that both preparation and practice are essential. I need to combine concept learning with regular problem-solving to perform better.
+"
+2026-04-07 02:03,"I studied all topics but when I tried questions, I realized I didn't understand the concepts properly.",Exam,5,1,"I learned that true understanding is more important than memorization. I need to focus on conceptual clarity, problem-solving, and applying knowledge rather than just reading theory.
+"
+2026-04-07 02:42,i weel prepared for the presentation but i become nervous while presenting.,Interview,2,0,i lerned the confidence nd commmunication are the important as preparation
+2026-04-07 03:27,"I studied all the subjects, but during the exam I couldn’t solve many questions because I didn’t really understand the concepts deeply.",Exam,6,1,"I realized that surface level studying is not enough.i ned to focus on deep understanding , problem solving and application of concepts to"
+2026-04-07 03:34,"I didn’t follow a proper study plan and kept postponing my work. In the end, I didn’t have enough time to prepare for the exam.",Exam,5,2,i learned that consistency and planning are the key to the success.
+2026-04-07 20:21,DURING THE INTERVIEW I KNWE THE ANSWERS BUT CANOT EXPLAIN PROPERLY,Interview,4,2,I LEARNED THE UNDERSTANDING IS MORE IMPORTANT THAN MEMORIZATION
+2026-04-07 20:21,DURING THE INTERVIEW I KNWE THE ANSWERS BUT CANOT EXPLAIN PROPERLY,Interview,4,2,I LEARNED THE UNDERSTANDING IS MORE IMPORTANT THAN MEMORIZATION
+2026-04-07 21:17,i had  basic preparation  but lacked confidence during the exam,Exam,5,0,confidence plays a major role in performance.i need more pratice more under exam like conditions

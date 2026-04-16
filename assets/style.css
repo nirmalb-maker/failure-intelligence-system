@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap');
+
+/* Global Reset & Typography */
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Outfit', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+/* Gradient Titles */
+h1 {
+    background: linear-gradient(135deg, #fca311 0%, #ff8c00 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    font-weight: 700 !important;
+}
+
+h2 {
+    color: #e2e8f0 !important;
+    font-weight: 600 !important;
+}
+
+/* Base Container Settings */
+.main .block-container {
+    padding-top: 3rem;
+    padding-bottom: 5rem;
+    max-width: 1280px;
+}
+
+/* Sidebar Styling (Glassmorphism Effect) */
+section[data-testid="stSidebar"] {
+    background-color: rgba(21, 27, 44, 0.65) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Card Styling for Metrics */
+div[data-testid="stMetric"] {
+    background: linear-gradient(145deg, rgba(30, 41, 59, 0.4), rgba(15, 23, 42, 0.8));
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    border-radius: 12px;
+    padding: 1.25rem 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), box-shadow 0.3s ease;
+}
+
+div[data-testid="stMetric"]:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 12px 30px rgba(252, 163, 17, 0.15);
+    border-color: rgba(252, 163, 17, 0.3);
+}
+
+div[data-testid="stMetricValue"] {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #fca311;
+    font-family: 'Outfit', sans-serif;
+}
+
+div[data-testid="stMetricLabel"] {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+div[data-testid="stMetricDelta"] {
+    font-weight: 600;
+}
+
+/* Progress Bars */
+.stProgress > div > div > div > div {
+    background-image: linear-gradient(90deg, #fca311, #ff8c00);
+    border-radius: 8px;
+}
+.stProgress > div > div > div {
+    background-color: #1e293b;
+    border-radius: 8px;
+    box-shadow: inset 0 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Alert Boxes & Info Cards */
+div.stAlert {
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    background: rgba(30, 41, 59, 0.6);
+    backdrop-filter: blur(8px);
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+div.stAlert:hover {
+    border-color: rgba(255, 255, 255, 0.15);
+}
+
+/* Expanders */
+div[data-testid="stExpander"] {
+    background: rgba(30, 41, 59, 0.3);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
+}
+
+div[data-testid="stExpander"]:hover {
+    border-color: rgba(252, 163, 17, 0.4);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+summary[data-testid="stExpanderSummary"] {
+    font-weight: 600;
+    color: #e2e8f0;
+}
+
+/* Buttons */
+.stButton > button[data-testid="baseButton-primary"] {
+    background: linear-gradient(135deg, #fca311 0%, #d97706 100%);
+    border: none;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 14px rgba(252, 163, 17, 0.3);
+    color: #fff !important;
+    transition: all 0.3s ease;
+}
+
+.stButton > button[data-testid="baseButton-primary"]:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(252, 163, 17, 0.5);
+    background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+}
+
+.stButton > button[data-testid="baseButton-secondary"] {
+    background: rgba(30, 41, 59, 0.6);
+    border: 1px solid rgba(255, 255, 255, 0.12);
+    font-weight: 500;
+    color: #e2e8f0;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.stButton > button[data-testid="baseButton-secondary"]:hover {
+    background: rgba(51, 65, 85, 0.8);
+    border-color: rgba(255, 255, 255, 0.25);
+    transform: translateY(-1px);
+}
+
+/* DataFrames / Tables (Basic adjustments) */
+[data-testid="stDataFrame"] {
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Chatbot UI Styles */
+[data-testid="stChatMessage"] {
+    background-color: rgba(30, 41, 59, 0.4) !important;
+    border-radius: 12px !important;
+    padding: 1rem !important;
+    margin-bottom: 1rem !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1) !important;
+}
+
+[data-testid="stChatMessage"]:nth-child(even) {
+    background-color: rgba(15, 23, 42, 0.6) !important;
+}
